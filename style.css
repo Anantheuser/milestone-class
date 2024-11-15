@@ -1,0 +1,13 @@
+ul li::before{
+    content:"🚀"
+}
+
+p::first-letter {
+
+    font-size: 200%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #abf32a
+}
+p:not(:first-of-type){
+    text-decoration:underline;
+}
